@@ -243,18 +243,18 @@ header .branding {
 
  h2 + h3{ margin: 1.4rem 0.3rem 0.7rem 0.5rem;} /*when they are followed by eah other without anything in between
  where it will be ugly to keep the original due to too mch spacing*/
- h4{margin: 2rem 0.3rem 1rem 1rem;}
+ h4{margin: 2rem 0.3rem 1rem 2rem;}
 
  h5{margin: 2rem 0.3rem 1rem 0rem;}
 
  h6{margin: 2rem 0.3rem 1rem 0rem;}
  p{margin: 1rem 1rem 1rem 1.5rem;}
  address{
-  margin: 0rem 1rem 0rem 1rem;
+  margin: 0rem 1rem 0rem 1.5rem;
  }
- ul{ margin: 0rem 1rem 0rem 0.5rem;}
+ ul{ margin: 0rem 1rem 0rem 2.5rem;}
 li{ margin: 0rem 0rem 0rem 0rem;}
-ol{ margin: 0rem 0rem 0rem 0.5rem}
+ol{ margin: 0rem 1rem 0rem 2.5rem}
 
   figure {}
   
