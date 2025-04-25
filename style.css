@@ -252,9 +252,14 @@ header .branding {
  address{
   margin: 0rem 1rem 0rem 1.5rem;
  }
- ul{ margin: 0rem 1rem 0rem 2.5rem;}
+ ul{ 
+  list-style-type: circle; 
+  margin: 0rem 1rem 0rem 2.5rem;}
 li{ margin: 0rem 0rem 0rem 0rem;}
-ol{ margin: 0rem 1rem 0rem 2.5rem}
+ol{
+   margin: 0rem 1rem 0rem 2.5rem;
+   list-style-type: decimal;
+  }
 
   figure {}
   
