@@ -68,6 +68,9 @@
 
 
 /* COLOR PALETTE & FONTS VARIABLES  */
+@import url(css/mobile-nav.css);
+        @import url(css/desktop-nav.css);
+        @import url(css/contact.css);
 
 :root {
     --header-bg-color: rgb(168 166 166);
@@ -129,6 +132,9 @@
 
 
    html, body {font-size: 100%;}
+   body{
+    line-height: 1.2;
+   }
 
 
   /* TYPESCALE for MOBILE 
@@ -240,8 +246,9 @@ header .branding {
  h2{ margin: 3rem 0.3rem 1rem 0rem; }
 
  h3{ margin: 2rem 0.3rem 1rem 0.5rem; }
-
- h2 + h3{ margin: 1.4rem 0.3rem 0.7rem 0.5rem;} /*when they are followed by eah other without anything in between
+ 
+ h2:has(+h3) {margin: 3rem 0.3rem 0.3rem 0rem}
+ h2 + h3{ margin: 0rem 0.3rem 0.7rem 0.5rem;} /*when they are followed by eah other without anything in between
  where it will be ugly to keep the original due to too mch spacing*/
  h4{margin: 2rem 0.3rem 1rem 2rem;}
 
@@ -252,9 +259,13 @@ header .branding {
  address{
   margin: 0rem 1rem 0rem 1.5rem;
  }
- ul{ margin: 0rem 1rem 0rem 2.5rem;}
+ ul{ 
+  list-style-type: circle;
+  margin: 0rem 1rem 0rem 2.5rem;}
 li{ margin: 0rem 0rem 0rem 0rem;}
-ol{ margin: 0rem 1rem 0rem 2.5rem}
+ol{ 
+  list-style-type: decimal;
+  margin: 0rem 1rem 0rem 2.5rem;}
 
   figure {}
   
